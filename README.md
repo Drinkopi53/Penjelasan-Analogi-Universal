@@ -1,0 +1,1 @@
+# Penjelasan-Analogi-Universal
