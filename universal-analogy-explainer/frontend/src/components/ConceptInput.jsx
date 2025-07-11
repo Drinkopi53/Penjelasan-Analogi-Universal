@@ -8,7 +8,10 @@ const ConceptInput = ({ value, onChange, placeholder }) => {
       value={value}
       onChange={onChange}
       placeholder={placeholder}
-      className="border p-2 rounded w-full mb-2 md:mb-0 md:mr-2" // Disesuaikan untuk layout
+      className="border border-gray-300 p-3 rounded-lg w-full shadow-sm
+                 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500
+                 transition-all duration-150 ease-in-out text-gray-700
+                 placeholder-gray-400" // Styling tambahan untuk placeholder
     />
   );
 };
